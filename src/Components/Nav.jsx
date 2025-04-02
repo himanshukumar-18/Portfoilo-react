@@ -51,7 +51,8 @@ const Nav = () => {
             <div className="cv res-cv hidden">
               <button className="hover:translate-y-[-3px] duration-200">
                 <a
-                  href="#"
+                  href={cv}
+                  target="_blank"
                   className="px-[45px] py-[10px] outline-2 outline-[#1d1d24] rounded-[5px] hover:bg-[#f9004d] hover:text-[#ffffff] hover:outline-[#f9004d] duration-150 text-[1rem]"
                 >
                   CV
