@@ -9,7 +9,9 @@ function App() {
 
   const tabs = [
     {
-      id: 0, label: "Main skills", content: (
+      id: 0,
+      label: "Main skills",
+      content: (
         <div className='mainSkill h-[200px]'>
           <h3 className="font-bold text-[#717173]">User experience design - UI/UX</h3>
           <p className='mb-3 text-[#7e7e7e]'>Delight the user and make it work.</p>
@@ -26,15 +28,19 @@ function App() {
     },
 
     {
-      id: 1, label: "Education & Certification", content:
-        <div className='h-[200px]'>
+      id: 1,
+      label: "Education & Certification",
+      content:
+        <div className='education h-[200px]'>
           <p>List of awards and recognitions.</p>
         </div>
     },
 
     {
-      id: 2, label: "Experience", content:
-        <div className='h-[200px]'>
+      id: 2,
+      label: "Experience",
+      content:
+        <div className='exp h-[200px]'>
           <p>Professional experience details.</p>
         </div>
     },

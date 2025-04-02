@@ -170,6 +170,10 @@ body {
     font-size: 1rem;
   }
 
+  .mainSkill, .education, .exp {
+    height: fit-content;
+  }
+
 }
 
 
@@ -265,7 +269,7 @@ body {
   }
 
   .thumbnail img {
-    height: 450px;
+    height: 400px;
   }
 
   .aboutText {
@@ -293,6 +297,10 @@ body {
 
   .mainSkill h3 {
     font-size: .9rem;
+  }
+
+  .aboutMe {
+    padding: 20px 2rem;
   }
   
 
