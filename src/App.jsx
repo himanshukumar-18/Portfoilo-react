@@ -1,5 +1,6 @@
 import './App.css'
 import Nav from './Components/Nav'
+import Projectcard from './Components/Projectcard';
 import thumbnail from './assets/about-profile.png'
 import { useState } from "react";
 
@@ -13,7 +14,7 @@ function App() {
       label: "Main skills",
       content: (
         <div className='mainSkill h-[200px]'>
-          <h3 className="font-bold text-[#717173]">User experience design - UI/UX</h3>
+          <h3 className="font-bold text-[#717173]">Web Development</h3>
           <p className='mb-3 text-[#7e7e7e]'>Delight the user and make it work.</p>
 
 
@@ -21,8 +22,8 @@ function App() {
           <p className='mb-3 text-[#7e7e7e]'>Websites, web experiences, ...</p>
 
 
-          <h3 className="font-bold text-[#717173]">Interaction design - Animation</h3>
-          <p className='text-[#7e7e7e]'>I like to move it move it.</p>
+          <h3 className="font-bold text-[#717173]">Web Manage</h3>
+          <p className='text-[#7e7e7e]'>It like to debugging and customize the code.</p>
         </div>
       )
     },
@@ -32,7 +33,18 @@ function App() {
       label: "Education & Certification",
       content:
         <div className='education h-[200px]'>
-          <p>List of awards and recognitions.</p>
+          <h3 className="font-bold text-[#717173]">Web Development</h3>
+          <p className='mb-3 text-[#7e7e7e]'>Arena Animation Hazaribag (2024 - 2025).</p>
+
+          <h3 className="font-bold text-[#717173]">Collage</h3>
+          <p className='mb-3 text-[#7e7e7e]'>Ananda Collage Hazaribag (JAC 2024 - 2028)</p>
+
+          <h3 className="font-bold text-[#717173]">
+            Higher Secoundry Education</h3>
+          <p className='mb-3 text-[#7e7e7e]'>Barhi Inter Collage Barhi (JAC 2022 - 2024)</p>
+
+          <h3 className="font-bold text-[#717173]">Secoundry Education</h3>
+          <p className='mb-3 text-[#7e7e7e]'>Vivekananda Central School Hazaribag (CBSE 2010 - 2022)</p>
         </div>
     },
 
@@ -41,7 +53,7 @@ function App() {
       label: "Experience",
       content:
         <div className='exp h-[200px]'>
-          <p>Professional experience details.</p>
+          <p>I developed hands-on experience in making websites through projects and live project.</p>
         </div>
     },
   ];
@@ -83,7 +95,7 @@ function App() {
           <div className="aboutText w-[60%] pl-[50px]">
             <h2 className='text-[3rem] font-[800]'>About Me</h2>
 
-            <p className='text-[1rem] font-[300] leading-8'>As a web developer, I specialize in creating dynamic, user-friendly websites and web applications. With a strong foundation in front-end, I am proficient in HTML, CSS, JavaScript, and various frameworks like React, Angular, and Node.js. I focus on delivering high-quality, responsive, and efficient web solutions, ensuring seamless user experiences across devices and platforms. My passion for coding drives me to continuously learn and stay updated with the latest trends and technologies in the web development industry.</p>
+            <p className='text-[1rem] font-[300] leading-8 text-[#717173]'>As a web developer, I specialize in creating dynamic, user-friendly websites and web applications. With a strong foundation in front-end, I am proficient in HTML, CSS, JavaScript, and various frameworks like React, and Jquery. I focus on delivering high-quality, responsive, and efficient web solutions, ensuring seamless user experiences across devices and platforms. My passion for coding drives me to continuously learn and stay updated with the latest trends and technologies in the web development industry.</p>
 
             <div className="contentChange mt-[40px]">
               <div className="w-full ">
@@ -107,6 +119,31 @@ function App() {
           </div>
         </div>
       </div>
+
+
+
+
+
+      <div className="projectContainer w-full px-[10rem] py-[50px]">
+        <div className="projectHeader text-center">
+          <h2 className='text-[3rem] font-[800] capitalize text-[#1f1f25]'>My latest projects</h2>
+          <p className='text-[1rem] font-[300] text-[#717173]'>There is my all showcase projects</p>
+        </div>
+
+        <div className="projectWrapper mt-[50px]">
+          <div className="projectRow flex justify-between">
+            <Projectcard proTmg={"https://images.pexels.com/photos/3178818/pexels-photo-3178818.jpeg?auto=compress&cs=tinysrgb&w=600"} webName={"Blogging Website"} proLink={"https://frontenddev-himanshu.github.io/Blogging-Web"} />
+
+            <Projectcard proTmg={"https://images.pexels.com/photos/53464/sheraton-palace-hotel-lobby-architecture-san-francisco-53464.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"} webName={"Hotel Website"} proLink={"https://devhimanshukr.github.io/Canary-Inn/"} />
+
+            <Projectcard proTmg={"https://images.pexels.com/photos/7307944/pexels-photo-7307944.jpeg?auto=compress&cs=tinysrgb&w=600"} webName={"Education Website"} proLink={"https://frontenddev-himanshu.github.io/SkillNation/"} />
+          </div>
+
+        </div>
+      </div>
+
+
+
     </>
   )
 }
