@@ -1,7 +1,8 @@
-import './App.css'
-import Nav from './Components/Nav'
+import './App.css';
+import HireFrom from './Components/HireFrom';
+import Nav from './Components/Nav';
 import Projectcard from './Components/Projectcard';
-import thumbnail from './assets/about-profile.png'
+import thumbnail from './assets/about-profile.png';
 import { useState } from "react";
 
 function App() {
@@ -152,14 +153,39 @@ function App() {
           <div className="projectRow row02 flex justify-between mt-9">
             <Projectcard proTmg={"https://images.pexels.com/photos/909907/pexels-photo-909907.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"} webName={"Car Website"} proLink={"https://frontenddev-himanshu.github.io/Rental-Cat-Web/"} />
 
-          <Projectcard proTmg={"https://images.pexels.com/photos/162203/panthera-tigris-altaica-tiger-siberian-amurtiger-162203.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"} webName={"Save Animal Website"} proLink={"https://frontenddev-himanshu.github.io/Ella-E-Commerce/"} />
+            <Projectcard proTmg={"https://images.pexels.com/photos/162203/panthera-tigris-altaica-tiger-siberian-amurtiger-162203.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"} webName={"Save Animal Website"} proLink={"https://frontenddev-himanshu.github.io/Ella-E-Commerce/"} />
 
-            <Projectcard proTmg={"https://images.pexels.com/photos/31440126/pexels-photo-31440126/free-photo-of-industrial-harbor-cranes-against-blue-sky.jpeg?auto=compress&cs=tinysrgb&w=600"} webName={"Business Landing Page"} proLink={"https://devhimanshukr.github.io/Business/"} />
+            <Projectcard proTmg={"https://images.pexels.com/photos/4021802/pexels-photo-4021802.jpeg?auto=compress&cs=tinysrgb&w=600"} webName={"Doctor Website"} proLink={"https://devhimanshukr.github.io/Hospital/"} />
           </div>
         </div>
       </div>
 
 
+
+
+
+
+      {/* hire me */}
+      <div className="hireMe w-full px-[10rem] py-[50px]">
+        <div className="hireWrapper flex">
+          <div className="hireFrom w-[49%]">
+            <h2 className='text-[3rem] font-[800] capitalize text-[#1f1f25]'>Hire Me.</h2>
+
+            <p className='text-[1rem] font-[300] text-[#717173] w-[70%]'>I am available for Jobs, freelance work. Connect with me via phone: 6201030273 or email: rajh5343@gmail.com.
+            </p>
+
+            <div className="hForm mt-[50px]">
+              <HireFrom />
+
+              <button className='uppercase bg-[#f9004d] px-[50px] rounded-[5px] mt-[20px] text-[#ffffff] py-[10px] hover:bg-[#ffffff] hover:text-[#f9004d] duration-100 hover:border-[2px]'>Submit</button>
+            </div>
+          </div>
+
+          <div className="hireImg w-[49%] h-[600px] rounded-2xl overflow-hidden">
+            <img src='https://images.pexels.com/photos/821754/pexels-photo-821754.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' className='h-[100%] w-[100%] object-cover' alt="Contact Img" />
+          </div>
+        </div>
+      </div>
 
     </>
   )
