@@ -1,5 +1,6 @@
 import { useState } from "react";
 import cv from "./Himanshu Kumar cv.pdf.pdf"
+import cer from "./Himanshu_Certificate.pdf.pdf"
 
 const Nav = () => {
 
@@ -32,15 +33,19 @@ const Nav = () => {
             </div>
 
             <li className="hover:text-[#f9004d] duration-150 f-list">
-              <a href="/">Home</a>
+              <a href="#Home">Home</a>
             </li>
 
             <li className="hover:text-[#f9004d] duration-150">
-              <a href="#">About</a>
+              <a href="#About">About</a>
             </li>
 
             <li className="hover:text-[#f9004d] duration-150">
-              <a href="#">Work</a>
+              <a href="#Work">Work</a>
+            </li>
+
+            <li className="hover:text-[#f9004d] duration-150">
+              <a target="_blank" href={cer}>Certificate</a>
             </li>
 
             <li className="hover:text-[#f9004d] duration-150">

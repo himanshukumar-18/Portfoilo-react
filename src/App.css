@@ -34,12 +34,12 @@ body {
   width: 100%;
   height: 100%;
   z-index: -1;
-  background-color: #cdcdcd86;
+  background-color: #cdcdcdad;
   z-index: -1;
 }
 
 
-.Projects::after {
+.Projects::af ter {
   content: "";
   width: 100%;
   height: 100%;
@@ -247,6 +247,7 @@ body {
 
   .projectWrapper {
     margin-top: 30px;
+    flex-direction: column;
   }
 
   .projectsDetails span {
@@ -264,6 +265,11 @@ body {
 
   .live {
     margin-top: 40px;
+  }
+
+
+  .row02 {
+    margin-top: 20px;
   }
 
 }

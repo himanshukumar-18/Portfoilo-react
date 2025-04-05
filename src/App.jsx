@@ -62,7 +62,7 @@ function App() {
   return (
     <>
       {/* hero page */}
-      <div className="heroPage w-full h-[95vh] px-[10rem]">
+      <div id='Home' className="heroPage w-full h-[95vh] px-[10rem]">
         <div className="navContainer">
           <Nav />
         </div>
@@ -86,7 +86,7 @@ function App() {
 
 
       {/* about page */}
-      <div className="aboutMe w-[100%] px-[10rem] py-[50px]">
+      <div id='About' className="aboutMe w-[100%] px-[10rem] py-[50px]">
         <div className="aboutContent flex items-center">
           <div className="thumbnail w-[40%] shadow-2xl">
             <img className='h-[700px] w-[100%] object-cover rounded-xl' src={thumbnail} alt="" />
@@ -123,8 +123,8 @@ function App() {
 
 
 
-
-      <div className="projectContainer w-full px-[10rem] py-[50px]">
+      {/* work section */}
+      <div id='Work' className="projectContainer w-full px-[10rem] py-[50px]">
         <div className="projectHeader text-center">
           <h2 className='text-[3rem] font-[800] capitalize text-[#1f1f25]'>My latest projects</h2>
           <p className='text-[1rem] font-[300] text-[#717173]'>There is my all showcase projects</p>
@@ -139,6 +139,23 @@ function App() {
             <Projectcard proTmg={"https://images.pexels.com/photos/7307944/pexels-photo-7307944.jpeg?auto=compress&cs=tinysrgb&w=600"} webName={"Education Website"} proLink={"https://frontenddev-himanshu.github.io/SkillNation/"} />
           </div>
 
+
+          <div className="projectRow row02 flex justify-between mt-9">
+            <Projectcard proTmg={"https://images.pexels.com/photos/31377542/pexels-photo-31377542/free-photo-of-stunning-japanese-waterfall-in-autumn-foliage.jpeg?auto=compress&cs=tinysrgb&w=600"} webName={"Clean India Website"} proLink={"https://devhimanshukr.github.io/Clean-India/"} />
+
+            <Projectcard proTmg={"https://images.pexels.com/photos/6214386/pexels-photo-6214386.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"} webName={"Ecommerce Website"} proLink={"https://frontenddev-himanshu.github.io/Ella-E-Commerce/"} />
+
+            <Projectcard proTmg={"https://images.pexels.com/photos/3401403/pexels-photo-3401403.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"} webName={"School Website"} proLink={"https://udayanpublicschool.org/"} />
+          </div>
+
+
+          <div className="projectRow row02 flex justify-between mt-9">
+            <Projectcard proTmg={"https://images.pexels.com/photos/909907/pexels-photo-909907.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"} webName={"Car Website"} proLink={"https://frontenddev-himanshu.github.io/Rental-Cat-Web/"} />
+
+          <Projectcard proTmg={"https://images.pexels.com/photos/162203/panthera-tigris-altaica-tiger-siberian-amurtiger-162203.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"} webName={"Save Animal Website"} proLink={"https://frontenddev-himanshu.github.io/Ella-E-Commerce/"} />
+
+            <Projectcard proTmg={"https://images.pexels.com/photos/31440126/pexels-photo-31440126/free-photo-of-industrial-harbor-cranes-against-blue-sky.jpeg?auto=compress&cs=tinysrgb&w=600"} webName={"Business Landing Page"} proLink={"https://devhimanshukr.github.io/Business/"} />
+          </div>
         </div>
       </div>
 
