@@ -71,7 +71,7 @@ const Nav = () => {
           <div className="socials">
             <ul className="flex gap-8 text-[1rem]">
               <li className="hover:text-[#f9004d] duration-200 hover:translate-y-[-3px]">
-                <a target="_blank" href="https://www.instagram.com/webwithhimanshu/?__pwa=1">
+                <a target="_blank" href="https://www.instagram.zcom/webwithhimanshu/?__pwa=1">
                   <i className="fa-brands fa-instagram"></i>
                 </a>
               </li>

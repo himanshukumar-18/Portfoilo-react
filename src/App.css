@@ -308,6 +308,18 @@ body {
     font-size: .8rem;
   }
 
+  .footerContainer {
+    padding: 0 2rem;
+    margin-top: 50px;
+  }
+
+  footer {
+    padding: 2rem 0;
+    flex-direction: column;
+    align-items: start;
+    gap: 30px;
+  }
+
 }
 
 
@@ -520,5 +532,38 @@ body {
   }
 
 
+  .footerContainer {
+    padding: 0rem 2rem;
+    margin-top: 50px;
+  }
+
+  footer {
+    padding: 2rem 0;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+  }
+
+  .footer-L {
+    height: 20px;
+  }
+
+  .logoHead h2 {
+    font-size: 1.5rem;
+  }
+
+  .copyRight p {
+    font-size: .7rem;
+  }
+
+  .footerSocial ul {
+    gap: 20px;
+  }
+
+  .footerSocial ul li {
+    height: 30px;
+    width: 30px;
+    font-size: .7rem;
+  }
 
 }
