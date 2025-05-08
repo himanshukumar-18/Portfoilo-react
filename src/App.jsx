@@ -15,19 +15,27 @@ function App() {
       label: "Main skills",
       content: (
         <div className="mainSkill h-[200px]">
-          <h3 className="font-bold text-[#717173]">Web Development</h3>
+          <h3 className="font-bold text-[#717173]">Front-end</h3>
           <p className="mb-3 text-[#7e7e7e]">
-            Delight the user and make it work.
+          Develop user-focused websites and applications using modern frontend technologies. With a strong eye for detail and UX, I build responsive, interactive interfaces that work across all devices.
+
+
           </p>
 
           <h3 className="font-bold text-[#717173]">
-            Web and user interface design - Development
+            Back-end
           </h3>
-          <p className="mb-3 text-[#7e7e7e]">Websites, web experiences, ...</p>
+          <p className="mb-3 text-[#7e7e7e]">As a backend developer, I turn business logic into reliable systems. I architect APIs, manage data flows, and deploy applications that support responsive and feature-rich frontends.</p>
 
-          <h3 className="font-bold text-[#717173]">Web Manage</h3>
+          <h3 className="font-bold text-[#717173]">Database</h3>
+          <p className="text-[#7e7e7e] mb-3">
+          With experience in both SQL (MongoDB) and MySQL databases, I create reliable data models that support dynamic, high-performance applications. I’m skilled in query optimization, indexing, and integrating databases with backend.
+          </p>
+
+          
+          <h3 className="font-bold text-[#717173]">Version Control</h3>
           <p className="text-[#7e7e7e]">
-            It like to debugging and customize the code.
+          Version control is essential to my development process. With Git, I manage code history, handle branching strategies, and collaborate effectively using pull requests and code reviews on platforms like GitHub.
           </p>
         </div>
       ),
@@ -52,12 +60,12 @@ function App() {
             Higher Secoundry Education
           </h3>
           <p className="mb-3 text-[#7e7e7e]">
-            Barhi Inter Collage Barhi (JAC 2022 - 2024)
+            Barhi Inter Collage Barhi 57% (JAC 2022 - 2024)
           </p>
 
           <h3 className="font-bold text-[#717173]">Secoundry Education</h3>
           <p className="mb-3 text-[#7e7e7e]">
-            Vivekananda Central School Hazaribag (CBSE 2010 - 2022)
+            Vivekananda Central School Hazaribag 60% (CBSE 2010 - 2022)
           </p>
         </div>
       ),
@@ -88,7 +96,7 @@ function App() {
         {/* inner text */}
         <div className="selfContent mt-[12rem] w-[100%]">
           <span className="skillSet text-[#1f1f25] tracking-[5px] uppercase text-[1rem]">
-            Web Deveolper
+            Mern Stack Developer
           </span>
 
           <h2 className="text-[#1f1f25] text-[4rem] font-[900] flex gap-4 w-[45%]">
@@ -103,7 +111,7 @@ function App() {
 
       {/* about page */}
       <div id="About" className="aboutMe w-[100%] px-[10rem] py-[50px]">
-        <div className="aboutContent flex items-center">
+        <div className="aboutContent flex">
           <div className="thumbnail w-[40%] shadow-2xl">
             <img
               className="h-[700px] w-[100%] object-cover rounded-xl"
@@ -116,18 +124,12 @@ function App() {
             <h2 className="text-[3rem] font-[800]">About Me</h2>
 
             <p className="text-[1rem] font-[300] leading-8 text-[#717173]">
-              As a web developer, I specialize in creating dynamic,
-              user-friendly websites and web applications. With a strong
-              foundation in front-end, I am proficient in HTML, CSS, JavaScript,
-              and various frameworks like React, and Jquery. I focus on
-              delivering high-quality, responsive, and efficient web solutions,
-              ensuring seamless user experiences across devices and platforms.
-              My passion for coding drives me to continuously learn and stay
-              updated with the latest trends and technologies in the web
-              development industry.
+            As a <strong> MERN Stack Developer </strong>, I specialize in building scalable, high-performance web applications using MongoDB, Express.js, React.js, and Node.js. I bring a deep understanding of modern JavaScript development and an eye for clean, maintainable code. With experience in both frontend and backend, I deliver full-stack solutions that are optimized for performance, usability, and security. My goal is to bridge the gap between design and technology—creating intuitive user interfaces backed by robust server-side logic.
+
+
             </p>
 
-            <div className="contentChange mt-[40px]">
+            <div className="contentChange mt-[30px]">
               <div className="w-full ">
                 <div className="switchContainer flex flex-wrap">
                   {tabs.map((tab, index) => (
