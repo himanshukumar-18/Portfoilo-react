@@ -250,7 +250,7 @@ function App() {
       </div>
 
       {/* hire me */}
-      <div className="hireMe w-full px-[10rem] py-[50px]">
+      <div id={'Contact'} className="hireMe w-full px-[10rem] py-[50px]">
         <div className="hireWrapper flex">
           <div className="hireFrom w-[49%]">
             <h2 className="text-[3rem] font-[800] capitalize text-[#1f1f25]">

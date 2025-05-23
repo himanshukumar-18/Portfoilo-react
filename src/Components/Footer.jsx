@@ -21,7 +21,7 @@ const Footer = () => {
                 <div className="footerLink">
                     <div className="footerSocial">
                         <ul className="flex items-center gap-[30px]">
-                            <li className="hover:text-[#f9004d] duration-200 hover:translate-y-[-3px] text-[#fff] rounded-[50%] w-[40px] h-[40px] flex justify-center items-center outline-1">
+                            {/* <li className="hover:text-[#f9004d] duration-200 hover:translate-y-[-3px] text-[#fff] rounded-[50%] w-[40px] h-[40px] flex justify-center items-center outline-1">
                                 <a target="_blank" href="https://www.instagram.com/webwithhimanshu/?__pwa=1">
                                     <i className="fa-brands fa-instagram"></i>
                                 </a>
@@ -31,10 +31,10 @@ const Footer = () => {
                                 <a target="_blank" href="https://www.youtube.com/channel/UCk-M7JffDKUr28MDYUdELjQ">
                                     <i className="fa-brands fa-youtube"></i>
                                 </a>
-                            </li>
+                            </li> */}
 
                             <li className="hover:text-[#f9004d] duration-150 hover:translate-y-[-3px] text-[#fff] rounded-[50%] w-[40px] h-[40px] flex justify-center items-center outline-1">
-                                <a target="_blank" href="https://github.com/frontenddev-himanshu">
+                                <a target="_blank" href="https://github.com/himanshukumar-18">
                                     <i className="fa-brands fa-github"></i>
                                 </a>
                             </li>
